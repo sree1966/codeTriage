@@ -1,0 +1,48 @@
+NEXAI MODEL EVALUATION REPORT
+=============================================
+
+Held-out Bitext Test Split (n=4,743):
+  - Accuracy: 0.993
+  - Macro-F1: 0.992
+
+Realistic Code-Mixed Benchmark (n=45):
+  - Accuracy: 97.8%
+  - Macro-F1: 0.987
+  - Mean Confidence: 89.9%
+  - Target Case Confidence: 98.7%
+
+Bitext Classification Report:
+                          precision    recall  f1-score   support
+
+            cancel_order      0.987     0.917     0.951        84
+            change_order      0.960     0.994     0.977       168
+ change_shipping_address      0.995     0.995     0.995       192
+  check_cancellation_fee      0.995     1.000     0.997       186
+           check_invoice      0.972     0.983     0.978       177
+   check_payment_methods      1.000     0.995     0.997       198
+     check_refund_policy      1.000     0.995     0.997       194
+               complaint      1.000     1.000     1.000       199
+contact_customer_service      1.000     0.979     0.990       195
+     contact_human_agent      0.985     0.995     0.990       194
+          create_account      1.000     0.975     0.987       160
+          delete_account      0.983     1.000     0.991       171
+        delivery_options      0.992     1.000     0.996       126
+         delivery_period      1.000     1.000     1.000       197
+            edit_account      0.993     1.000     0.996       139
+             get_invoice      0.988     0.969     0.978       163
+              get_refund      0.978     1.000     0.989       181
+ newsletter_subscription      1.000     0.995     0.997       196
+           payment_issue      0.995     1.000     0.997       198
+             place_order      1.000     0.995     0.997       198
+        recover_password      1.000     1.000     1.000       197
+   registration_problems      0.995     0.995     0.995       198
+                  review      1.000     1.000     1.000       198
+ set_up_shipping_address      1.000     1.000     1.000       198
+          switch_account      1.000     0.993     0.997       149
+             track_order      0.987     0.993     0.990       150
+            track_refund      1.000     1.000     1.000       137
+
+                accuracy                          0.993      4743
+               macro avg      0.993     0.991     0.992      4743
+            weighted avg      0.993     0.993     0.993      4743
+

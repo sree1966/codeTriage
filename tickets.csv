@@ -1,0 +1,29 @@
+time,message,language,intent,category,urgency,confidence,escalated
+2026-10-22 10:37:25,"Order vandhuchu but box damaged, refund venum.",Tanglish,get_refund,REFUND,Medium,0.374,True
+2026-10-22 10:41:58,"Order vandhuchu but box damaged, refund venum.",Tanglish,get_refund,REFUND,Medium,0.374,True
+2026-10-22 10:42:50,Mera order kahan hai? Tracking number bhejo,Hinglish,track_order,ORDER,Low,0.803,False
+2026-10-22 10:52:34,order varala na ena panrathu,Tanglish,track_order,ORDER,Medium,0.206,True
+2026-10-22 10:53:20,"Mera payment deduct ho gaya, order confirm nahi hua.",Hinglish,payment_issue,PAYMENT,High,0.562,True
+2026-10-22 10:53:54,un peru ena,Tanglish,delivery_options,DELIVERY,Low,0.338,True
+2026-10-22 11:05:08,"enperu ena
+",Tanglish,delivery_options,DELIVERY,Low,0.338,True
+2026-10-22 11:06:22,"Order vandhuchu but box damaged, refund venum.",Tanglish,get_refund,REFUND,Medium,0.374,True
+2026-10-22 11:07:00,Wrong product deliver pannitanga.,Tanglish,place_order,ORDER,Medium,0.327,True
+2026-10-22 11:39:08,"Order vandhuchu but box damaged, refund venum.",Tanglish,get_refund,REFUND,Medium,0.374,True
+2026-10-22 11:59:25,"Order vandhuchu but box damaged, refund venum.",Tanglish,get_refund,REFUND,Medium,0.374,True
+2026-10-22 12:00:58,"Order vandhuchu but box damaged, refund venum.",Tanglish,get_refund,REFUND,Medium,0.374,True
+2026-10-22 12:01:21,refund thapa poten,English,get_refund,REFUND,Medium,0.78,True
+2026-10-22 12:05:41,"Order vandhuchu but box damaged, refund venum.",Tanglish,get_refund,REFUND,Medium,0.374,True
+2026-10-22 12:12:04,"Order vandhuchu but box damaged, refund venum.",Tanglish,get_refund,REFUND,Medium,0.374,True
+2026-10-22 12:12:43,"Order vandhuchu but box damaged, refund venum.",Tanglish,get_refund,REFUND,Medium,0.374,True
+2026-10-22 13:25:01,"Mera payment deduct ho gaya, order confirm nahi hua.",Hinglish,payment_issue,PAYMENT,High,0.981,True
+2026-10-22 14:42:01,"Order vandhuchu but box damaged, refund venum.",Tanglish,get_refund,REFUND,Medium,0.987,False
+2026-10-22 14:43:31,Wrong product deliver pannitanga.,Tanglish,complaint,FEEDBACK,Medium,0.574,False
+2026-10-22 14:43:46,Wrong product deliver pannitanga.,Tanglish,complaint,FEEDBACK,Medium,0.574,False
+2026-10-22 14:45:34,un peru ena,Tanglish,check_refund_policy,REFUND,Low,0.211,True
+2026-10-22 14:57:38,"Order vandhuchu but box damaged, refund venum.",Tanglish,get_refund,REFUND,Medium,0.987,False
+2026-10-22 15:30:22,"En account login aagala, help pannunga.",Tanglish,recover_password,ACCOUNT,Low,0.513,False
+2026-10-22 15:41:23,"Order vandhuchu but box damaged, refund venum.",Tanglish,get_refund,REFUND,Medium,0.987,False
+2026-10-22 16:07:11,"Order vandhuchu but box damaged, refund venum.",Tanglish,get_refund,REFUND,Medium,0.987,False
+2026-10-22 16:26:49,"Order vandhuchu but box damaged, refund venum.",Tanglish,get_refund,REFUND,Medium,0.987,False
+2026-10-22 16:27:12,un name ena,Tanglish,edit_account,ACCOUNT,Low,0.155,True
